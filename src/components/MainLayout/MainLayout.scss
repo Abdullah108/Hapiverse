@@ -1,0 +1,64 @@
+.MainLayoutWrapper {
+    max-height: 100vh; 
+    height: 100vh;
+    background-color: white;
+}
+.outletWrapper {
+    height: 100%;
+    padding: 20px 20px;
+}
+.mainImgWrapper {
+    height: 100%; 
+    text-align-last: end;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.mainImgWrapper img {
+    height: 100%; 
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .mainImgWrapper > img {
+        display: none;
+    }
+}
+
+.headerWrapper {
+    justify-content: space-between;
+}
+.PricingPlan {
+    background-color: #fff;
+    color: #282828;
+    padding: 12px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border: 1px solid #ececec;
+}
+.css-weuz2y-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8.5px 20px !important;
+}
+.css-15pwzmx-MuiFormLabel-root-MuiInputLabel-root {
+    top: -6px !important;
+}
+#demo-simple-select-outlined-label {
+    font-size: 14px;
+    color: #282828 !important;
+}
+.css-1ao0ee-MuiInputBase-root-MuiOutlinedInput-root {
+    color: #282828 !important;
+}
+.css-1o2jng6-MuiOutlinedInput-notchedOutline {
+    border-color: #ececec !important;
+    border-radius: 10px !important;
+}
+.dropdown {
+    margin-left: 20px !important;
+    width: 120px;
+}
+#pricingBtns {
+    text-align: right;
+}
