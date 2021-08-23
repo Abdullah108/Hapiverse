@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
-import './MainLayout.scss';
+import './RegisterLayout.scss';
 import Select from '@material-ui/core/Select';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -9,7 +9,7 @@ import MaskGroup from './Assets/Mask Group.png';
 import Frame from './Assets/Frame.png';
 
 /* eslint-disable global-require */
-const MainLayout = () => (
+const RegisterLayout = () => (
   <div>
     <Grid container xs={12} className="MainLayoutWrapper">
       <Grid item lg={6} md={6} sm={7} xs={12} className="outletWrapper">
@@ -49,4 +49,4 @@ const MainLayout = () => (
   </div>
 );
 
-export default MainLayout;
+export default RegisterLayout;

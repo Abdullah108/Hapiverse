@@ -17,7 +17,7 @@ const Register = () => {
           <p className="header">Welcome to Texlenet</p>
           <p className="subHeader">Please sign up to make an account</p>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item lg={8} md={8} sm={12} xs={12}>
           <div className="inputField">
             <TextField
               id="outlined-basic2"

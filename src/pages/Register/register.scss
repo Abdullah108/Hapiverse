@@ -27,6 +27,25 @@
 .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
     width: 100%;
 }
+@media screen and (max-width:600px) {
+    .mainImgWrapper {
+        display: none;
+    }
+    .header {
+        font-size: 29px !important;
+        line-height: 49px !important;
+    }
+    .subHeader {
+        font-size: 20px !important;
+        line-height: 50px !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .subHeader {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}
 .nextButton {
     color: white;
     background: #935AFD;
@@ -65,7 +84,48 @@
     color: #B3B6B6;
     font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+//Register2
 .SignInSpan {
     color: #49DD96;
     font-weight: 600;
+}
+.contentHeader {
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282828;
+}
+.options {
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #B3B6B6;
+    border: 1px solid #ECECEC;
+    border-radius: 16px;
+    padding: 20px 40px;
+    background-color: white;
+}
+.css-s2fyw2-MuiGrid-root>.MuiGrid-item {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+}
+.optionsInterest {
+    padding: 10px 20px;
+}
+.optionsHeading {
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #B3B6B6;
+    margin-top: 10px;
+}
+.optionsInterest {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
 }

@@ -1,12 +1,13 @@
 import { Navigate } from 'react-router-dom';
 import DashboardLayout from 'src/components/DashboardLayout';
-import MainLayout from 'src/components/MainLayout/MainLayout';
+import RegisterLayout from 'src/components/RegisterLayout/RegisterLayout';
 import Account from 'src/pages/Account';
 import CustomerList from 'src/pages/CustomerList';
 import Dashboard from 'src/pages/Dashboard';
 import NotFound from 'src/pages/NotFound';
 import ProductList from 'src/pages/ProductList';
-import Register from 'src/pages/Register/Register';
+import RegisterStep1 from 'src/pages/Register/RegisterStep1';
+import RegisterStep2 from 'src/pages/Register/RegisterStep2';
 import Settings from 'src/pages/Settings';
 
 const routes = [
@@ -23,10 +24,11 @@ const routes = [
     ]
   },
   {
-    path: '/',
-    element: <MainLayout />,
+    path: '/register',
+    element: <RegisterLayout />,
     children: [
-      { path: 'register', element: <Register /> },
+      { path: 'step1', element: <RegisterStep1 /> },
+      { path: 'step2', element: <RegisterStep2 /> },
       { path: '404', element: <NotFound /> }
     ]
   }
