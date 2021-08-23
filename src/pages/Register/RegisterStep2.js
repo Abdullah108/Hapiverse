@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet';
+import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import './register.scss';
 /* eslint-disable react/self-closing-comp */
@@ -211,6 +212,11 @@ const Register = () => {
             </Grid>
           </Grid>
         </Grid>
+        <div className="fButton">
+          <Button variant="contained" color="primary">
+            Finish
+          </Button>
+        </div>
       </Grid>
     </>
   );
