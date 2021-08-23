@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 export default {
   h1: {
     fontWeight: 500,
