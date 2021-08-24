@@ -9,7 +9,6 @@ import ProductList from 'src/pages/ProductList';
 import RegisterStep1 from 'src/pages/Register/RegisterStep1';
 import RegisterStep2 from 'src/pages/Register/RegisterStep2';
 import Settings from 'src/pages/Settings';
-import RegisterStep3 from './pages/Register/RegisterStep3';
 
 const routes = [
   {
@@ -30,7 +29,6 @@ const routes = [
     children: [
       { path: 'step1', element: <RegisterStep1 /> },
       { path: 'step2', element: <RegisterStep2 /> },
-      { path: 'step2', element: <RegisterStep3 /> },
       { path: '404', element: <NotFound /> }
     ]
   }

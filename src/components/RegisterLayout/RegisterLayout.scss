@@ -24,6 +24,15 @@
     .mainImgWrapper > img {
         display: none;
     }
+    #imgCenter {
+        text-align: -webkit-center;
+    }
+    #pricingBtns {
+        justify-content: space-between;
+        text-align: unset;
+        display: flex;
+        margin-top: 10px;
+    }
 }
 
 .headerWrapper {
@@ -61,4 +70,8 @@
 }
 #pricingBtns {
     text-align: right;
+}
+
+.options {
+    cursor: pointer;
 }

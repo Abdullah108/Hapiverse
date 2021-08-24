@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
 import './register.scss';
 import TextField from '@material-ui/core/TextField';
@@ -10,7 +11,7 @@ const Register = () => {
   return (
     <>
       <Helmet>
-        <title>Register</title>
+        <title>Register Step 1</title>
       </Helmet>
       <Grid container xs={12} id="registerWrap">
         <Grid item xs={12}>
@@ -37,9 +38,11 @@ const Register = () => {
             />
           </div>
           <div className="nextBtn">
-            <button type="button" className="nextButton">
-              Next
-            </button>
+            <Link to="/register/step2" style={{ color: '#fff' }}>
+              <button type="button" className="nextButton">
+                Next
+              </button>
+            </Link>
           </div>
           <div className="SignUpLine">
             <div className="dash"></div>

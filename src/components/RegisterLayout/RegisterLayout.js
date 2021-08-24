@@ -14,10 +14,10 @@ const RegisterLayout = () => (
     <Grid container xs={12} className="MainLayoutWrapper">
       <Grid item lg={6} md={6} sm={7} xs={12} className="outletWrapper">
         <Grid container xs={12} className="headerWrapper">
-          <Grid item xs={3}>
+          <Grid item lg={3} xs={12} id="imgCenter">
             <img alt="" src={Frame} />
           </Grid>
-          <Grid item xs={6} sm={9} id="pricingBtns">
+          <Grid item lg={6} sm={9} xs={12} id="pricingBtns">
             <button type="button" className="PricingPlan">
               Pricing Plans
             </button>

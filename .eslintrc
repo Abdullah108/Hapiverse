@@ -5,8 +5,9 @@
     "browser": true
   },
   "extends": [
-    "airbnb"
+    "airbnb","plugin:react/recommended"
   ],
+  
   "settings": {
     "import/resolver": {
       "node": {
@@ -21,6 +22,7 @@
     }
   },
   "rules": {
+    "no-unused-vars": "off",
     "linebreak-style": 0,
     "comma-dangle": "off",
     "jsx-a11y/anchor-is-valid": "off",

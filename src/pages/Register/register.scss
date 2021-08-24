@@ -133,7 +133,33 @@
 .fButton {
   Button {
     margin-top: 4rem;
-    width: 15rem;
-    border-radius: 0.5rem;
+    // width: 15rem;
+    border-radius: 1rem;
   }
+}
+.industrySelected {
+    color: #fff;
+    background-color: #49DD96;
+}
+.domainIconSelected {
+    fill: #fff !important;
+    stroke: #fff !important
+}
+.domainSelected {
+    background-color: #49dd96;
+}
+.domainSelected > svg > path, .domainSelected > svg > circle {
+    stroke: #fff;
+}
+.spanColor {
+    color: #b3b6b6;
+}
+.completeBtn {
+    padding: 20px 130px;
+    border: 1px solid #49DD96;
+    color: white;
+    background-color: #49DD96;
+    font-size: 20px;
+    display: flex;
+    font-weight: 500;
 }
